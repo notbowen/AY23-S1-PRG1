@@ -1,3 +1,5 @@
+# Hu Bowen, S10255800B
+
 # Prompt user for input
 ct = float(input("Enter your common test marks (out of 100): "))
 assessment = float(input("Enter your assessment marks (out of 100): "))
