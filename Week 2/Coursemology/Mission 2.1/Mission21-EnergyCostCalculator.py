@@ -60,5 +60,4 @@ monthly_electricity_consumption = (power_rating * hours) / 1000
 cost = monthly_electricity_consumption * TARIFF
 
 #Output
-print(cost)
 print("Your monthly electricity cost is: ${:0.4f}".format(cost))
