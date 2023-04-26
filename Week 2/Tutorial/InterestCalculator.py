@@ -5,10 +5,10 @@
 #assigning values to the variables
 principal = 10000.00	# in dollars
 rate = 10
-durations = 2		# in years
+duration = 2		# in years
 		
 #compute the interest
-interest = principal * rate * duration
+interest = principal * (rate / 100) * duration
 		
 #display the output
 print('Principal ($)  : {:.2f}'.format(principal))

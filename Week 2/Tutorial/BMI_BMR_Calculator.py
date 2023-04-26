@@ -3,7 +3,7 @@
 
 #Calculate BMI
 weight = float(input('Enter weight(kg): '))
-height = input('Enter height(m): ')
+height = float(input('Enter height(cm): '))
 
 bmi = weight / height
 
