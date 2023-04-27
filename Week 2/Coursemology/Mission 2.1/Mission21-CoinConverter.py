@@ -50,4 +50,4 @@ cent5 = int(input("Enter the number of 5-cent coins: "))
 total = cent50 * 0.5 + cent20 * 0.2 + cent10 * 0.1 + cent5 * 0.05
 
 #Output
-print("The total amount of cash you have is: ${}".format(total))
+print("The total amount of cash you have is: ${:.2f}".format(total))
