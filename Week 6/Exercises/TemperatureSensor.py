@@ -20,7 +20,10 @@ with open(data_file) as f:
 
 # Display data with warning msg
 print("The temperatures are")
-[print("  ", temp) if temp < 29.0 else print("  ", temp, "** higher than 29!!!") for temp in temperatures]
+idx = 0
+while idx < len(temperatures):
+    print("  ", temperatures[idx]) if temperatures[idx] < 29.0 else print("  ", temperatures[idx], "** higher than 29!!!")
+    idx += 1
 
 # Display number of readings & avg temp
 print("\nNumber of readings: {}".format(len(temperatures)))
