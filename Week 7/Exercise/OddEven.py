@@ -30,7 +30,10 @@ even_numbers.sort()
 print("Even numbers: {}".format(even_numbers))
 
 # Calculate and print average
-total = sum(even_numbers + odd_numbers)
+total = 0
+for num in (even_numbers + odd_numbers):
+    total += num
+
 length = len(even_numbers + odd_numbers)
 
 print("Average = {:.2f}".format(total / length))
