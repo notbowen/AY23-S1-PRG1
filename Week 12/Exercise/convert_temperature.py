@@ -4,13 +4,13 @@
 
 # Function to convert celsius to fahrenheit
 
-def convert_temperature(celsius: int) -> float:
+def convert_temperature(celsius: float) -> float:
     """ Takes in a degree in celsius and returns the fahrenheit value """
     f = (celsius * 9 / 5) + 32
     return f
 
 
 # Runner code
-cel = int(input("Enter the temperature in degree celsius: "))
+cel = float(input("Enter the temperature in degree celsius: "))
 f = convert_temperature(cel)
 print("The temperature is equivalent to {:.1f} fahrenheit.".format(f))
